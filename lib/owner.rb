@@ -32,5 +32,6 @@ def feed_cats
    Dog.new(name, self)
  end 
  def sell_pets
+   pets = self.dogs
  end
   
