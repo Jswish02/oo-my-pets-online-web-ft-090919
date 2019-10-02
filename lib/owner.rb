@@ -39,7 +39,7 @@ def feed_cats
      pet.owner = nil
    end
  def list_pets
-   "Ihave #{self.dogs.count} dog(s), and #{self.cats.count} catt(s)."
+   "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."
  end
  end
   
