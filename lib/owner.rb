@@ -27,4 +27,3 @@ def walk_cats
  end 
  end
   
-end
