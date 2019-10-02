@@ -38,6 +38,8 @@ def feed_cats
      pet.mood ="nervous"
      pet.owner = nil
    end
+ def list_pets
+   "Ihave #{self.dogs.count} dog(s), and #{self.cats.count} catt(s)."
  end
  end
   
