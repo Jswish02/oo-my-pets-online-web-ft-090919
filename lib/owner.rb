@@ -20,10 +20,10 @@ class Owner
     self.all.clear 
   end
   def walk_dogs
-    self.dogs.each { |dog| dog.mood = "happy"
+    self.dogs.each { |dog| dog.mood = "happy"}
   end
 def walk_cats 
-  self.cats.each {|dog| cat.mood = "happy"
+  self.cats.each {|cat| cat.mood = "happy"}
  end 
  end
   
